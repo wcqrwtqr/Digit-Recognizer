@@ -228,7 +228,8 @@ for i in range(9000,9010):
 final_df_cnn = pd.DataFrame(y_cnn_result, columns= ['Label'])
 final_df_cnn.to_csv('submission_cnn.csv', index_label = 'ImageId')
 
-# add one more note to check the Github working or not
+
+# submitted the file to kaggel and got a score of 98.2%
 
 
 
